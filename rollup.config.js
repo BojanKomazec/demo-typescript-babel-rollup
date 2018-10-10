@@ -8,7 +8,9 @@ export default {
     },
     plugins: [
         babel({
+            // include: 'src/**/*.ts', // optional
             exclude: 'node_modules/**', // only transpile our source code
+            extensions: ['.ts', '.js'],
         }),
     ],
 };
