@@ -1,0 +1,30 @@
+{
+  "name": "demo-typescript-babel-rollup",
+  "version": "1.0.0",
+  "description": "TypeScript - Babel - Rollup.js toolchain demo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle" : "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BojanKomazec/demo-typescript-babel-rollup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BojanKomazec/demo-typescript-babel-rollup/issues"
+  },
+  "homepage": "https://github.com/BojanKomazec/demo-typescript-babel-rollup#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-typescript": "^7.1.0",
+    "rollup": "^0.66.5",
+    "rollup-plugin-babel": "^4.0.3"
+  }
+}
